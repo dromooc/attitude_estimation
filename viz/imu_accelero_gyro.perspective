@@ -1,0 +1,687 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'rqt_plot/Plot': [2, 1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_py_console__PyConsole__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "use_spyderlib": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__PublisherWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'topic_name': '/wrench', 'type_name': 'geometry_msgs/Wrench', 'enabled': False, 'rate': 1.0, 'expressions': {u'/wrench/force/z': '0.3'}, 'publisher_id': 0, 'counter': 0}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_nav_view__NavigationView__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_image_view__ImageView__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__ImageViewWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "dynamic_range": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "max_range": {
+                  "type": "repr",
+                  "repr": "u'10'"
+                },
+                "topic": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "zoom1": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_reconfigure__Param__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget___plugincontainer_top_widget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff000000000000000200000141000003d601000000060100000001')",
+                  "pretty-print": "       A       "
+                },
+                "_splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000002000001b70000004b01000000090100000002')",
+                  "pretty-print": "         K     "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_image_view__ImageView__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__ImageViewWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "dynamic_range": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "max_range": {
+                  "type": "repr",
+                  "repr": "u'10'"
+                },
+                "topic": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "zoom1": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/imu/data/linear_acceleration/x', u'/imu/data/linear_acceleration/y', u'/imu/data/linear_acceleration/z']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-1.4571923665358781, 15.843102372302154]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[-1132883.4947564397, -1132863.0587801356]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (2)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/imu/data/angular_velocity/y', u'/imu/data/angular_velocity/x', u'/imu/data/angular_velocity/z']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-1.8452873397792735, 2.526130902152165]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[-1132882.0810442616, -1132861.8276245228]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_pose_view__PoseView__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "view_matrix": {
+                  "type": "repr",
+                  "repr": "u'[[0.3880508244037628, 0.531479001045227, -0.7529587149620056, 0.0], [-0.8977346420288086, 0.4028322696685791, -0.17832203209400177, 0.0], [0.20854124426841736, 0.7451547980308533, 0.6334460377693176, 0.0], [0.06925535202026367, -2.953829765319824, -17.5, 1.0]]'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_launch__Launch__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "_splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000002000000640000006401000000090100000002')",
+                  "pretty-print": "       d d     "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_bag__Bag__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {},
+              "groups": {
+                "odom__Plot": {
+                  "keys": {
+                    "dockable": {
+                      "type": "repr",
+                      "repr": "u'true'"
+                    },
+                    "parent": {
+                      "type": "repr",
+                      "repr": "None"
+                    }
+                  },
+                  "groups": {}
+                },
+                "ardrone": {
+                  "keys": {},
+                  "groups": {
+                    "front": {
+                      "keys": {},
+                      "groups": {
+                        "image_raw": {
+                          "keys": {},
+                          "groups": {
+                            "compressed__Image": {
+                              "keys": {
+                                "dockable": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "parent": {
+                                  "type": "repr",
+                                  "repr": "None"
+                                }
+                              },
+                              "groups": {}
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "odometry__Raw": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    },
+                    "odometry__Plot": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    },
+                    "navdata__Raw": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                },
+                "cmd_vel__Raw": {
+                  "keys": {
+                    "dockable": {
+                      "type": "repr",
+                      "repr": "u'true'"
+                    },
+                    "parent": {
+                      "type": "repr",
+                      "repr": "None"
+                    }
+                  },
+                  "groups": {}
+                },
+                "plafond": {
+                  "keys": {},
+                  "groups": {
+                    "image_raw__Image": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                },
+                "usb_cam": {
+                  "keys": {},
+                  "groups": {
+                    "image_raw__Image": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                }
+              }
+            },
+            "dock_widget__BagWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_graph__RosGraph__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosGraphUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "graph_type_combo_box_index": {
+                  "type": "repr",
+                  "repr": "u'2'"
+                },
+                "topic_filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "actionlib_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "quiet_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "dead_sinks_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "leaf_topics_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "namespace_cluster_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_graph__RosGraph__2": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "graph_type_combo_box_index": {
+                  "type": "repr",
+                  "repr": "u'0'"
+                },
+                "topic_filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "actionlib_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "quiet_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "dead_sinks_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "leaf_topics_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "namespace_cluster_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_robot_steering__RobotSteering__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "topic": {
+                  "type": "repr",
+                  "repr": "u'/cmd_vel'"
+                },
+                "vx_min": {
+                  "type": "repr",
+                  "repr": "u'-1'"
+                },
+                "vw_min": {
+                  "type": "repr",
+                  "repr": "u'-3'"
+                },
+                "vw_max": {
+                  "type": "repr",
+                  "repr": "u'3'"
+                },
+                "vx_max": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_topic__TopicPlugin__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "tree_widget_header_state": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000001000000000000000101000000000000000000000000000000000000044c000000050101000100000000000000000500000064ffffffff000000810000000300000005000001ac0000000100000003000001120000000100000003000000710000000100000003000000390000000100000003000000e40000000100000003')",
+                  "pretty-print": "                              d                     q     9          "
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__TopicWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_tf_tree__RosTfTree__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosTfTreeUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb0002000000000253000000000000076800000220000002540000001a000007670000021c00000000000000000780')",
+          "pretty-print": "     S   h   T   g       "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000004000000000000051d000000aafc0200000003fb00000030005f005f0044006f0063006b0057006900640067006500740043006f006e007400610069006e00650072005f005f00310100000019000002b90000000000000000fc000001780000015a0000000000fffffffa000000000100000002fb00000044007200710074005f00670072006100700068005f005f0052006f007300470072006100700068005f005f0031005f005f0052006f007300470072006100700068005500690100000000ffffffff0000000000000000fb00000058007200710074005f007000750062006c00690073006800650072005f005f005000750062006c00690073006800650072005f005f0031005f005f005000750062006c0069007300680065007200570069006400670065007401000000000000051d0000000000000000fc00000228000000aa0000000000fffffffa000000000100000002fb0000006c007200710074005f007200650063006f006e006600690067007500720065005f005f0050006100720061006d005f005f0031005f005f005f0070006c007500670069006e0063006f006e007400610069006e00650072005f0074006f0070005f0077006900640067006500740100000000ffffffff0000000000000000fb0000004c007200710074005f00740066005f0074007200650065005f005f0052006f0073005400660054007200650065005f005f0031005f005f0052006f0073005400660054007200650065005500690100000000ffffffff0000000000000000000000010000078000000088fc0200000001fc00000369000000880000000000fffffffc0100000003fc00000000000007800000000000fffffffa000000000200000008fb00000038007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f006f0064006f006d005f005f0050006c006f00740100000000ffffffff0000000000000000fb0000006c007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f006100720064007500700069005f0072006f0062006f0074002f0065006e0063006f0064006500720043006f0075006e0074002f006c006500660074005f005f0050006c006f00740100000000ffffffff0000000000000000fb0000004e007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0077006800650065006c00530070006500650064002f006c006500660074005f005f0050006c006f00740100000000ffffffff0000000000000000fb00000054007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0077006800650065006c00530070006500650064005200650066002f006c006500660074005f005f0050006c006f00740100000000ffffffff0000000000000000fb0000003e007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0063006d0064005f00760065006c005f005f0050006c006f00740100000000ffffffff0000000000000000fb0000004e007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f006e006100760064006100740061005f005f0050006c006f00740100000000ffffffff0000000000000000fb00000050007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f006f0064006f006d0065007400720079005f005f0050006c006f00740100000000ffffffff0000000000000000fb00000034007200710074005f006200610067005f005f004200610067005f005f0031005f005f0042006100670057006900640067006500740100000019000002b90000000000000000fb00000054007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f007500730062005f00630061006d002f0069006d006100670065005f007200610077005f005f0049006d0061006700650100000273000002aa0000000000000000fb00000054007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0070006c00610066006f006e0064002f0069006d006100670065005f007200610077005f005f0049006d006100670065010000026d000002b000000000000000000000000200000514000001dafc0100000004fc00000000000002ff0000000000fffffffa000000000200000002fb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f0070006900630057006900640067006500740100000000ffffffff0000000000000000fb0000005a007200710074005f0069006d006100670065005f0076006900650077005f005f0049006d0061006700650056006900650077005f005f0031005f005f0049006d00610067006500560069006500770057006900640067006500740100000019000002090000000000000000fb0000005a007200710074005f0069006d006100670065005f0076006900650077005f005f0049006d0061006700650056006900650077005f005f0032005f005f0049006d00610067006500560069006500770057006900640067006500740100000000000002900000000000000000fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f00740057006900640067006500740100000000000002730000011300fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f007400570069006400670065007401000002790000029b0000011300ffffff000000030000051d0000010bfc0100000014fb00000050007200710074005f0070006f00730065005f0076006900650077005f005f0050006f007300650056006900650077005f005f0031005f005f0047004c00560069006500770057006900640067006500740100000000000004730000000000000000fb00000042007200710074005f006e00610076005f0076006900650077005f005f004e0061007600690067006100740069006f006e0056006900650077005f005f0031005f005f0100000000000001c30000000000000000fb00000046007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f0069006d0075005f005f0050006c006f007401000000000000051d0000000000000000fb00000030005f005f0044006f0063006b0057006900640067006500740043006f006e007400610069006e00650072005f005f003201000000000000051d0000000000000000fb00000050007200710074005f0061006300740069006f006e005f005f0041006300740069006f006e0050006c007500670069006e005f005f0031005f005f006d0065007300730061006700650073002e0075006901000000000000051d0000000000000000fb0000003c007200710074005f00700079005f0063006f006e0073006f006c0065005f005f005000790043006f006e0073006f006c0065005f005f0031005f005f01000000000000051d0000000000000000fb00000044007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f0069006d0075005f005f0052006100770100000000000001610000000000000000fb00000076007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f00660072006f006e0074002f0069006d006100670065005f007200610077002f0063006f006d0070007200650073007300650064005f005f0049006d0061006700650100000000000001b70000000000000000fb0000004c007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f006e006100760064006100740061005f005f00520061007701000001bd0000011b0000000000000000fb0000003c007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0063006d0064005f00760065006c005f005f00520061007701000002de0000039a0000000000000000fb0000004e007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f0061007200640072006f006e0065002f006f0064006f006d0065007400720079005f005f005200610077010000067e000001ff0000000000000000fb00000064007200710074005f006c00610075006e00630068005f005f004c00610075006e00630068005f005f0031005f005f005f0070006c007500670069006e0063006f006e007400610069006e00650072005f0074006f0070005f00770069006400670065007401000003090000018e0000000000000000fb00000078007200710074005f00720075006e00740069006d0065005f006d006f006e00690074006f0072005f005f00520075006e00740069006d0065004d006f006e00690074006f0072005f005f0031005f005f00520075006e00740069006d0065004d006f006e00690074006f00720057006900640067006500740100000334000001630000000000000000fb00000036007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f006f0064006f006d005f005f00520061007701000000000000051d0000000000000000fb00000066007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f006100720064007500700069005f0072006f0062006f0074002f0063006d0064004d006f0074006f0072002f00720069006700680074005f005f0050006c006f007401000000000000051d0000000000000000fb00000064007200710074005f006200610067005f005f004200610067005f005f0031005f005f002f006100720064007500700069005f0072006f0062006f0074002f0063006d0064004d006f0074006f0072002f006c006500660074005f005f0050006c006f007401000000000000051d0000000000000000fb00000044007200710074005f00670072006100700068005f005f0052006f007300470072006100700068005f005f0032005f005f0052006f0073004700720061007000680055006901000000000000051d0000000000000000fb0000006a007200710074005f0072006f0062006f0074005f007300740065006500720069006e0067005f005f0052006f0062006f0074005300740065006500720069006e0067005f005f0031005f005f0052006f0062006f0074005300740065006500720069006e00670055006901000000000000051d0000000000000000fb00000026007200710074005f007200760069007a005f005f005200560069007a005f005f0031005f005f01000000000000051d0000000000000000fb00000042007200710074005f006d00730067005f005f004d0065007300730061006700650073005f005f0031005f005f006d0065007300730061006700650073002e0075006901000000000000051d0000000000000000000005140000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 0__DockWidgetContainer__1          x Z                                                                                                                            lrqt_reconfigure__Param__1___plugincontainer_top_widget          Lrqt_tf_tree__RosTfTree__1__RosTfTreeUi                   i                        8rqt_bag__Bag__1__/odom__Plot          lrqt_bag__Bag__1__/ardupi_robot/encoderCount/left__Plot          Nrqt_bag__Bag__1__/wheelSpeed/left__Plot          Trqt_bag__Bag__1__/wheelSpeedRef/left__Plot          >rqt_bag__Bag__1__/cmd_vel__Plot          Nrqt_bag__Bag__1__/ardrone/navdata__Plot          Prqt_bag__Bag__1__/ardrone/odometry__Plot          4rqt_bag__Bag__1__BagWidget          Trqt_bag__Bag__1__/usb_cam/image_raw__Image          Trqt_bag__Bag__1__/plafond/image_raw__Image                                                                                                                                                                                                                                       s                                         y                                                             s                                                                                                                                                                                                                                                                     a                                                                                                                                                                                                               ~                                                                                                                                   4 c                                                                                                                                                                                                                                                                                                                                                                                                                    "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'rqt_plot/Plot': [2]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/imu/data/linear_acceleration/x', u'/imu/data/linear_acceleration/y', u'/imu/data/linear_acceleration/z']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[u'-2.0881845709899669', u'14.194400178886823']"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[u'-783765.95669982233', u'-783603.69018101692']"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (2)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/imu/mag/magnetic_field/z', u'/imu/mag/magnetic_field/x', u'/imu/mag/magnetic_field/y']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-0.7865246736548944, 0.7272368171074959]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[63.588745908694875, 249.2237310409546]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__3": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/imu/mag/magnetic_field/z', u'/imu/mag/magnetic_field/x', u'/imu/mag/magnetic_field/y']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[u'-0.66716064545048437', u'0.91012757247867271']"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[u'-783741.98613342515', u'-783671.31623506546']"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb0002000000000017000000bf00000368000003cc00000018000000d900000367000003c800000000000000000690')",
+          "pretty-print": "         h       g       "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd000000010000000300000350000002c7fc0100000003fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f00740057006900640067006500740100000000000002bc0000000000000000fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f00740057006900640067006500740100000000000003500000011300fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0033005f005f00440061007400610050006c006f007400570069006400670065007401000003920000024d0000000000000000000003500000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Brqt_plot__Plot__1__DataPlotWidget          Brqt_plot__Plot__2__DataPlotWidget          Brqt_plot__Plot__3__DataPlotWidget                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

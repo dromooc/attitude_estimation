@@ -1,0 +1,734 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'rqt_plot/Plot': [3, 2, 1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_py_console__PyConsole__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "use_spyderlib": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__PublisherWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'topic_name': '/wrench', 'type_name': 'geometry_msgs/Wrench', 'enabled': False, 'rate': 1.0, 'expressions': {u'/wrench/force/z': '0.3'}, 'publisher_id': 0, 'counter': 0}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_nav_view__NavigationView__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_image_view__ImageView__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__ImageViewWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "dynamic_range": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "max_range": {
+                  "type": "repr",
+                  "repr": "u'10'"
+                },
+                "topic": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "zoom1": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_reconfigure__Param__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget___plugincontainer_top_widget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff000000000000000200000141000003d601000000060100000001')",
+                  "pretty-print": "       A       "
+                },
+                "_splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000002000001b70000004b01000000090100000002')",
+                  "pretty-print": "         K     "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_image_view__ImageView__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__ImageViewWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "dynamic_range": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "max_range": {
+                  "type": "repr",
+                  "repr": "u'10'"
+                },
+                "topic": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "zoom1": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Plot'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/EstimatedRPYAngles/pitch', u'/GroundTruthRPYAngles/pitch']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-1.2432920357143649, 0.9401531814186275]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[2872.467563410937, 2901.8476531505585]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (2)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/EstimatedRPYAngles/yaw', u'/GroundTruthRPYAngles/yaw']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-2.6074498628849403, 1.956738555661929]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[2705.3506021217336, 2736.6312720775604]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__3": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (3)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/EstimatedRPYAngles/roll', u'/GroundTruthRPYAngles/roll']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-0.5698364467417565, 0.4329582645984109]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[147.34090988489308, 160.4125759601593]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_launch__Launch__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "_splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000002000000640000006401000000090100000002')",
+                  "pretty-print": "       d d     "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_bag__Bag__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {},
+              "groups": {
+                "odom__Plot": {
+                  "keys": {
+                    "dockable": {
+                      "type": "repr",
+                      "repr": "u'true'"
+                    },
+                    "parent": {
+                      "type": "repr",
+                      "repr": "None"
+                    }
+                  },
+                  "groups": {}
+                },
+                "ardrone": {
+                  "keys": {},
+                  "groups": {
+                    "front": {
+                      "keys": {},
+                      "groups": {
+                        "image_raw": {
+                          "keys": {},
+                          "groups": {
+                            "compressed__Image": {
+                              "keys": {
+                                "dockable": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "parent": {
+                                  "type": "repr",
+                                  "repr": "None"
+                                }
+                              },
+                              "groups": {}
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "odometry__Raw": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    },
+                    "odometry__Plot": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    },
+                    "navdata__Raw": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                },
+                "cmd_vel__Raw": {
+                  "keys": {
+                    "dockable": {
+                      "type": "repr",
+                      "repr": "u'true'"
+                    },
+                    "parent": {
+                      "type": "repr",
+                      "repr": "None"
+                    }
+                  },
+                  "groups": {}
+                },
+                "plafond": {
+                  "keys": {},
+                  "groups": {
+                    "image_raw__Image": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                },
+                "usb_cam": {
+                  "keys": {},
+                  "groups": {
+                    "image_raw__Image": {
+                      "keys": {
+                        "dockable": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "parent": {
+                          "type": "repr",
+                          "repr": "None"
+                        }
+                      },
+                      "groups": {}
+                    }
+                  }
+                }
+              }
+            },
+            "dock_widget__BagWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_graph__RosGraph__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosGraphUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "graph_type_combo_box_index": {
+                  "type": "repr",
+                  "repr": "u'2'"
+                },
+                "topic_filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "actionlib_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "quiet_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "dead_sinks_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "leaf_topics_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'false'"
+                },
+                "namespace_cluster_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_graph__RosGraph__2": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "graph_type_combo_box_index": {
+                  "type": "repr",
+                  "repr": "u'0'"
+                },
+                "topic_filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "filter_line_edit_text": {
+                  "type": "repr",
+                  "repr": "u'/'"
+                },
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "actionlib_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "quiet_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "dead_sinks_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "leaf_topics_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "namespace_cluster_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_robot_steering__RobotSteering__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "topic": {
+                  "type": "repr",
+                  "repr": "u'/cmd_vel'"
+                },
+                "vx_min": {
+                  "type": "repr",
+                  "repr": "u'-1'"
+                },
+                "vw_min": {
+                  "type": "repr",
+                  "repr": "u'-3'"
+                },
+                "vw_max": {
+                  "type": "repr",
+                  "repr": "u'3'"
+                },
+                "vx_max": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_topic__TopicPlugin__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "tree_widget_header_state": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000001000000000000000101000000000000000000000000000000000000022f000000050101000100000000000000000500000064ffffffff000000810000000300000005000000800000000100000003000000c000000001000000030000006100000001000000030000002a0000000100000003000000640000000100000003000003e800')",
+                  "pretty-print": "                              d                     a     *     d      "
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__TopicWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_tf_tree__RosTfTree__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosTfTreeUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_pose_view__PoseView__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "view_matrix": {
+                  "type": "repr",
+                  "repr": "u'[[0.3880508244037628, 0.531479001045227, -0.7529587149620056, 0.0], [-0.8977346420288086, 0.4028322696685791, -0.17832203209400177, 0.0], [0.20854124426841736, 0.7451547980308533, 0.6334460377693176, 0.0], [0.06925535202026367, -2.953829765319824, -17.5, 1.0]]'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb00020000000000500000005500000700000002ed000000510000006f000006ff000002e900000000000000000780')",
+          "pretty-print": "     P U     Q o         "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd0000000100000003000006af00000252fc0100000004fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0033005f005f00440061007400610050006c006f00740057006900640067006500740100000000000002560000011300fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f0074005700690064006700650074010000025c0000023e0000011300fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f007400570069006400670065007401000004a00000020f0000011300fffffffb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f0070006900630057006900640067006500740100000362000001b20000000000000000000006af0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Brqt_plot__Plot__3__DataPlotWidget          Brqt_plot__Plot__1__DataPlotWidget          Brqt_plot__Plot__2__DataPlotWidget          Lrqt_topic__TopicPlugin__1__TopicWidget                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

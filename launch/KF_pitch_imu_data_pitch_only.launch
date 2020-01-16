@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!-- DroMOOC
+     ONERA-ENSTA-CentraleSupelec-Paris Saclay
+     Vizualisation of IMU data
+-->
+
+<launch>
+
+	<!-- bag -->
+        <node name="data_replay" pkg="rosbag" type="play" output="screen" args="-l $(find attitude_estimation)/bags/pitch_only.bag" />
+
+	<!-- RQT GUI -->
+    	<node name="visu_pitch" pkg="rqt_gui" type="rqt_gui" output="screen" args="--perspective-file $(find attitude_estimation)/viz/kf_pitch_estimation.perspective" />
+
+	<!-- Estimation angle node -->
+	<node name="KFPitchNode" pkg="attitude_estimation" type="KFPitchEstimation.py" output="screen" />
+
+
+</launch>
+
+
